@@ -12,17 +12,34 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600&display=swap" rel="stylesheet">
-  
+
   <!-- Link stylesheet -->
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  <header>
+    <img src="images/logo.svg" alt="Logo" id="logo-img">
+  </header>
 
-  We're coming soon
+  <main>
+    <img src="images/hero-mobile.jpg" alt="Young woman" id="main-img-mobile">
 
-  Hello fellow shoppers! We're currently building our new fashion store. 
-  Add your email below to stay up-to-date with announcements and our launch deals.
+    <section id="main-content">
+      <h1>
+        <span>We're</span> <br> coming <br> soon
+      </h1>
+      <p>
+        Hello fellow shoppers! We're currently building our new fashion store. 
+        Add your email below to stay up-to-date with announcements and our launch deals.
+      </p>
 
-  Email Address
+      <form>
+        <input type="text" id="email-input" placeholder="Email Address" autocomplete="off">
+        <button type="submit" id="submit-btn">
+          <img src="images/icon-arrow.svg" alt="Arrow icon">
+        </button>
+      </form>
+    </section>
+  </main>
 </body>
 </html>
